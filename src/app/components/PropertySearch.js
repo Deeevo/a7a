@@ -1,4 +1,4 @@
-import { FormControl, Input, Button } from '@chakra-ui/react';
+/*import { FormControl, Input, Button } from '@chakra-ui/react';
 
 function PropertySearch() {
   return (

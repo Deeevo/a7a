@@ -1,6 +1,6 @@
 "use client"
 import { useState } from 'react';
-import { FormControl, Input, Button } from '@chakra-ui/react';
+import { FormControl, Input, Button, HStack } from '@chakra-ui/react';
 import SearchFieldDropdown from './SearchFieldDropdown';
 
 function AdditionalSearchFields() {
@@ -23,7 +23,7 @@ function AdditionalSearchFields() {
   return (
     <div>
       {fields.map((field, index) => (
-        <div key={index}>
+        <HStack key={index} spacing={4}>
           <FormControl>
             <Input 
               placeholder="Search Field" 
@@ -35,7 +35,7 @@ function AdditionalSearchFields() {
           {fields.length > 1 && (
             <Button onClick={() => handleRemoveField(index)}>Remove</Button>
           )}
-        </div>
+        </HStack>
       ))}
       {addField ? (
         <Button onClick={handleAddField}>Add Another Field</Button>

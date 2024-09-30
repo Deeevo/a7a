@@ -1,4 +1,4 @@
-'use client';
+/*'use client';
 
 import { Button, Stack, Select } from '@chakra-ui/react';
 import { useState } from 'react';
@@ -26,17 +26,17 @@ export default function SearchInput() {
 
   return (
     <Stack spacing={4}>
-      {/* Search type selector */}
+      {/* Search type selector *}
       <Select value={searchType} onChange={(e) => setSearchType(e.target.value)}>
         <option value="quick">Quick Search</option>
         <option value="property">Property Search</option>
         <option value="custom">Custom Search</option>
       </Select>
 
-      {/* Quick Permit Number search */}
+      {/* Quick Permit Number search *}
       {searchType === 'quick' && <QuickPermitSearch handleSearch={handleSearch} />}
 
-      {/* Simplified Property Search */}
+      {/* Simplified Property Search *}
       {searchType === 'property' && (
         <Stack direction="row" spacing={4}>
           <Input placeholder="Property Number" />
@@ -45,7 +45,7 @@ export default function SearchInput() {
         </Stack>
       )}
 
-      {/* Custom Search */}
+      {/* Custom Search *}
       {searchType === 'custom' && (
         <Stack>
           <Input placeholder="Custom Search Term" />
@@ -57,7 +57,7 @@ export default function SearchInput() {
         </Stack>
       )}
 
-      {/* Search button (only show for property and custom searches) */}
+      {/* Search button (only show for property and custom searches) *}
       {(searchType === 'property' || searchType === 'custom') && (
         <Button colorScheme="blue" onClick={() => handleSearch('')}>
           Search
@@ -66,3 +66,4 @@ export default function SearchInput() {
     </Stack>
   );
 }
+*/

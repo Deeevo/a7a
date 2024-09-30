@@ -1,4 +1,4 @@
-import PropertySearch from './PropertySearch';
+/*import PropertySearch from './PropertySearch';
 import AdditionalSearchFields from './AdditionalSearchFields';
 
 function SearchBars() {
@@ -10,4 +10,4 @@ function SearchBars() {
     );
     }
     
-    export default SearchBars;
+    export default SearchBars;*/

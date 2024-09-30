@@ -1,4 +1,4 @@
-// Import necessary components from Chakra UI and React
+/*// Import necessary components from Chakra UI and React
 import { Input, Flex } from '@chakra-ui/react';
 import { useState } from 'react';
 
