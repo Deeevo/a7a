@@ -1,3 +1,4 @@
+"use client"
 import { Box, VStack, Flex, Text, Badge } from '@chakra-ui/react';
 
 // Mock data (replace with SQLite database fetch)
@@ -5,7 +6,7 @@ const resultsData = [
   {
     address: '2776 Main St',
     status: 'Issued',
-    description: 'Lorem ipsum dolor sit amet...',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat....',
     district: 'A',
     companyName: 'RSL Electrical Contractors Ltd',
     badges: ['P', 'R', 'S', 'F'],

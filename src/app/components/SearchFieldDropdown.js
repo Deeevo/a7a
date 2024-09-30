@@ -1,3 +1,4 @@
+"use client"
 import { Select } from '@chakra-ui/react';
 
 const SearchFieldDropdown = () => {
